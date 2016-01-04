@@ -37,7 +37,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    
+
     'books',
 
 )
@@ -53,7 +53,6 @@ MIDDLEWARE_CLASSES = (
 ROOT_URLCONF = 'sun.urls'
 
 WSGI_APPLICATION = 'sun.wsgi.application'
-MALL_CSS_FILE_PATH = os.path.join(PROJECT_HOME, '../static','css', 'webapp')
 
 # Database
 # https://docs.djangoproject.com/en/1.6/ref/settings/#databases
@@ -75,7 +74,7 @@ DATABASES = {
 
 LANGUAGE_CODE = 'zh-cn'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Shanghai'
 
 USE_I18N = True
 
