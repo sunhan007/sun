@@ -1,0 +1,24 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="zh-CN">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+
+    <link type="text/css" rel="stylesheet" media="all" href="/static/bootstrap/css/bootstrap.css">
+    <link type="text/css" rel="stylesheet" media="all" href="/static/bootstrap/css/bootstrap.min.css">
+    <style>
+
+    </style>
+</head>
+<body>
+    <h1>This is my first project!</h1>
+
+    {% block content %}{% endblock %}
+    {% block footer %}
+    <hr>
+    <p>Thanks for visiting my site.</p>
+    {% endblock %}
+
+    <script type="text/javascript" src="/static/jquery/jquery-1.9.1.min.js"></script>
+</body>
+</html>
